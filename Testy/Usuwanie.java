@@ -35,7 +35,7 @@ public class Usuwanie {
     driver.findElement(By.id("id_delete_button_2")).click();
     driver.findElement(By.xpath("//button[@type='button']")).click();
     driver.findElement(By.linkText("Logout")).click();
-    assertEquals("", driver.findElement(By.id("id_login")).getAttribute("value"));
+    // ERROR: Caught exception [unknown command [assertNull]]
     // ERROR: Caught exception [unknown command []]
   }
 
